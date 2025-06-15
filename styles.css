@@ -1,0 +1,86 @@
+/* Smooth scroll and base styles */
+body, html {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  background-color: #000000; /* fallback */
+}
+
+/* Hero Section */
+#home {
+  background: linear-gradient(to right, #1F1C18, #8E0E00);
+}
+
+#about {
+  padding-top: 100px;  
+  padding-bottom: 60px;
+  background: linear-gradient(to right, #061161, #780206);
+  color: white;
+}
+#skills {
+  padding-top: 100px;
+  padding-bottom: 60px;
+  background: linear-gradient(to right, #373B44, #4286f4);
+  color: white;
+}
+#resume {
+  background: linear-gradient(to right, #3a0ca3, #f72585); /* dark purple to hot pink */
+}
+#portfolio {
+  background: linear-gradient(to right, #2b5876, #4e4376); /* cool purplish-blue */
+  min-height: 100vh;
+  color: white;
+}
+#contact {
+  background: linear-gradient(to right, #232526, #414345); /* dark gradient */
+  min-height: 100vh;
+  color: white;
+}
+
+
+
+/* Navbar logo */
+.navbar-brand img {
+  border-radius: 50%;
+}
+
+/* Navbar links */
+.navbar-nav .nav-link {
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+
+/* Primary button styles */
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+/* Footer */
+footer {
+  font-size: 0.9rem;
+  background-color: #000;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+
+/* Responsive image */
+img.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Optional: Responsive adjustments */
+@media (max-width: 768px) {
+  #about {
+    padding-top: 80px;
+  }
+}
